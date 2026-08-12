@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "url": "https://github.com/ValeraZSD/gamerai-recorder/releases/download/v1.0.0/GamerAI-Recorder-1.0.0.zip",
+  "sha256": "49acd3f940724968bb8274bf1de3eadc416aaabb731343bab9605f6a2b1ebb3e",
+  "bytes": 145177377,
+  "published": "2026-08-12",
+  "notes": "First release published here. From this version on, the recorder checks for updates by itself when it starts and offers to install them.\n\n- Records the Scrap Mechanic window only, in ten languages.\n- One button packages your recordings into a single file to send.\n- Update notices arrive on their own; install them whenever it suits you.",
+  "page": "https://github.com/ValeraZSD/gamerai-recorder/releases/tag/v1.0.0"
+}
