@@ -37,9 +37,18 @@ here.
 ## Updating
 
 The app checks this page for itself when it starts. When there is a newer
-version it shows a notice with an **Update now** button that downloads and
-installs it, then restarts itself. You can carry on recording and update
-later — the notice will still be there next time.
+version it shows a notice saying which version you are on and which one is
+available — for example *1.1.1 → 1.2.0* — and, if you have skipped a few, how
+many releases behind you are.
+
+The notice has two buttons: **Update now** downloads and installs the new
+version and restarts the app, and **What changed** opens the
+[releases page](../../releases) so you can read what each version you missed
+actually changed.
+
+You can carry on recording and update later — the notice will still be there
+next time. It cannot be dismissed, because an old recorder can quietly go on
+producing footage that a fixed bug has already made less useful.
 
 ## The files in each release
 
@@ -49,7 +58,9 @@ later — the notice will still be there next time.
 | `version.json` | the manifest the app reads to see whether it is out of date |
 
 `version.json` carries the SHA-256 of the zip, so the app can check its
-download arrived intact.
+download arrived intact. It also lists every release published so far, which
+is how the app can tell you how many versions you have skipped without having
+to ask GitHub anything else.
 
 ## Problems
 
