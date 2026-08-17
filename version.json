@@ -1,9 +1,9 @@
 {
-  "version": "1.1.0",
-  "url": "https://github.com/ValeraZSD/gamerai-recorder/releases/download/v1.1.0/GamerAI-Recorder-1.1.0.zip",
-  "sha256": "ca2f25a32220aa5a03b5983f968b286b498ecc6c956a14b840fde0efd68554f5",
-  "bytes": 145199726,
+  "version": "1.1.1",
+  "url": "https://github.com/ValeraZSD/gamerai-recorder/releases/download/v1.1.1/GamerAI-Recorder-1.1.1.zip",
+  "sha256": "599f2037b41c1f5c3797030973a846c35c9d6753c5ba972124038d84ee960ca1",
+  "bytes": 145212803,
   "published": "2026-08-17",
-  "notes": "The mouse pointer is now recorded. Menus, the inventory and the craftbot\nwere invisible to training before this: Windows hands the cursor to a screen\ncapture separately from the picture, so it was in no recorded frame at all.\nIt is drawn into the frames now, and only while a menu is open.\n\nTeammate audio actually records. If the peer track turns out to be picking\nup silence -- which happens when a virtual audio cable is installed but the\nvoice chat is not routed into it -- it switches itself over to your speakers\na minute in, instead of recording nothing for the whole session.\n\nA recording no longer fails because one part of it does. A microphone, the\nvideo archive or the teammate track that will not open now costs only itself\nand says which one it was; the gameplay is kept either way.\n\nLarge recordings are split into 500 MB pieces for upload. If your connection\ncannot carry a multi-gigabyte upload in one go, each piece is sent and\nretried on its own. Upload everything in the folder, in any order.",
-  "page": "https://github.com/ValeraZSD/gamerai-recorder/releases/tag/v1.1.0"
+  "notes": "The recorder now draws the real mouse pointer, not a generic marker. Scrap\nMechanic uses an open hand when you hover a slot and a closed fist while you\nare dragging an item, and that difference is the whole point: it is what\nseparates picking something up from putting it down. Both are now in the\nrecording, each with its own colour so the difference survives at training\nresolution.\n\nThe version is shown in the window title. If something goes wrong, the\nscreenshot now says which build it was.",
+  "page": "https://github.com/ValeraZSD/gamerai-recorder/releases/tag/v1.1.1"
 }
