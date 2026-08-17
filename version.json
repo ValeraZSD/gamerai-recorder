@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0",
-  "url": "https://github.com/ValeraZSD/gamerai-recorder/releases/download/v1.0.0/GamerAI-Recorder-1.0.0.zip",
-  "sha256": "49acd3f940724968bb8274bf1de3eadc416aaabb731343bab9605f6a2b1ebb3e",
-  "bytes": 145177377,
-  "published": "2026-08-12",
-  "notes": "First release published here. From this version on, the recorder checks for updates by itself when it starts and offers to install them.\n\n- Records the Scrap Mechanic window only, in ten languages.\n- One button packages your recordings into a single file to send.\n- Update notices arrive on their own; install them whenever it suits you.",
-  "page": "https://github.com/ValeraZSD/gamerai-recorder/releases/tag/v1.0.0"
+  "version": "1.1.0",
+  "url": "https://github.com/ValeraZSD/gamerai-recorder/releases/download/v1.1.0/GamerAI-Recorder-1.1.0.zip",
+  "sha256": "ca2f25a32220aa5a03b5983f968b286b498ecc6c956a14b840fde0efd68554f5",
+  "bytes": 145199726,
+  "published": "2026-08-17",
+  "notes": "The mouse pointer is now recorded. Menus, the inventory and the craftbot\nwere invisible to training before this: Windows hands the cursor to a screen\ncapture separately from the picture, so it was in no recorded frame at all.\nIt is drawn into the frames now, and only while a menu is open.\n\nTeammate audio actually records. If the peer track turns out to be picking\nup silence -- which happens when a virtual audio cable is installed but the\nvoice chat is not routed into it -- it switches itself over to your speakers\na minute in, instead of recording nothing for the whole session.\n\nA recording no longer fails because one part of it does. A microphone, the\nvideo archive or the teammate track that will not open now costs only itself\nand says which one it was; the gameplay is kept either way.\n\nLarge recordings are split into 500 MB pieces for upload. If your connection\ncannot carry a multi-gigabyte upload in one go, each piece is sent and\nretried on its own. Upload everything in the folder, in any order.",
+  "page": "https://github.com/ValeraZSD/gamerai-recorder/releases/tag/v1.1.0"
 }
