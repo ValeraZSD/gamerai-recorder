@@ -1,9 +1,45 @@
 {
-  "version": "1.1.1",
-  "url": "https://github.com/ValeraZSD/gamerai-recorder/releases/download/v1.1.1/GamerAI-Recorder-1.1.1.zip",
-  "sha256": "599f2037b41c1f5c3797030973a846c35c9d6753c5ba972124038d84ee960ca1",
-  "bytes": 145212803,
+  "version": "1.2.0",
+  "url": "https://github.com/ValeraZSD/gamerai-recorder/releases/download/v1.2.0/GamerAI-Recorder-1.2.0.zip",
+  "sha256": "1cc331e296c8cb8239b57a67f26f9ae76b4386b5a6936da462f3ccfb6707b030",
+  "bytes": 145229600,
   "published": "2026-08-17",
-  "notes": "The recorder now draws the real mouse pointer, not a generic marker. Scrap\nMechanic uses an open hand when you hover a slot and a closed fist while you\nare dragging an item, and that difference is the whole point: it is what\nseparates picking something up from putting it down. Both are now in the\nrecording, each with its own colour so the difference survives at training\nresolution.\n\nThe version is shown in the window title. If something goes wrong, the\nscreenshot now says which build it was.",
-  "page": "https://github.com/ValeraZSD/gamerai-recorder/releases/tag/v1.1.1"
+  "notes": {
+    "en": "The mouse pointer is now recorded on every tick, not every third — so hovering an inventory slot and dragging an item are told apart three times more often in your recordings. Menu and crafting play is worth recording again.\n\nThe update notice now says which version you are on and how many releases behind, with a \"What changed\" button.",
+    "ru": "Указатель мыши теперь записывается на каждом тике, а не на каждом третьем — наведение на слот и перетаскивание предмета различаются втрое чаще. Игру с инвентарём и крафтом стоит записать заново.\n\nУведомление об обновлении теперь показывает вашу версию, на сколько выпусков вы отстаёте, и кнопку «Что изменилось».",
+    "uk": "Вказівник миші тепер записується на кожному тику, а не на кожному третьому — наведення на слот і перетягування предмета розрізняються втричі частіше. Гру з інвентарем і крафтом варто записати знову.\n\nСповіщення про оновлення тепер показує вашу версію, на скільки випусків ви відстаєте, і кнопку «Що змінилося».",
+    "nl": "De muisaanwijzer wordt nu bij elke tick opgenomen in plaats van elke derde — zweven boven een inventarisvak en een item slepen worden drie keer zo vaak onderscheiden. Menu- en craftingopnames zijn het opnieuw opnemen waard.\n\nDe updatemelding toont nu je huidige versie, hoeveel releases je achterloopt, en een knop \"Wat is er veranderd\"."
+  },
+  "page": "https://github.com/ValeraZSD/gamerai-recorder/releases/tag/v1.2.0",
+  "history": [
+    {
+      "version": "1.2.0",
+      "notes": {
+        "en": "The mouse pointer is now recorded on every tick, not every third — so hovering an inventory slot and dragging an item are told apart three times more often in your recordings. Menu and crafting play is worth recording again.\n\nThe update notice now says which version you are on and how many releases behind, with a \"What changed\" button.",
+        "ru": "Указатель мыши теперь записывается на каждом тике, а не на каждом третьем — наведение на слот и перетаскивание предмета различаются втрое чаще. Игру с инвентарём и крафтом стоит записать заново.\n\nУведомление об обновлении теперь показывает вашу версию, на сколько выпусков вы отстаёте, и кнопку «Что изменилось».",
+        "uk": "Вказівник миші тепер записується на кожному тику, а не на кожному третьому — наведення на слот і перетягування предмета розрізняються втричі частіше. Гру з інвентарем і крафтом варто записати знову.\n\nСповіщення про оновлення тепер показує вашу версію, на скільки випусків ви відстаєте, і кнопку «Що змінилося».",
+        "nl": "De muisaanwijzer wordt nu bij elke tick opgenomen in plaats van elke derde — zweven boven een inventarisvak en een item slepen worden drie keer zo vaak onderscheiden. Menu- en craftingopnames zijn het opnieuw opnemen waard.\n\nDe updatemelding toont nu je huidige versie, hoeveel releases je achterloopt, en een knop \"Wat is er veranderd\"."
+      },
+      "page": "https://github.com/ValeraZSD/gamerai-recorder/releases/tag/v1.2.0",
+      "published": "2026-08-17"
+    },
+    {
+      "version": "1.1.1",
+      "notes": "",
+      "page": "https://github.com/ValeraZSD/gamerai-recorder/releases/tag/v1.1.1",
+      "published": "2026-08-17"
+    },
+    {
+      "version": "1.1.0",
+      "notes": "",
+      "page": "https://github.com/ValeraZSD/gamerai-recorder/releases/tag/v1.1.0",
+      "published": "2026-08-17"
+    },
+    {
+      "version": "1.0.0",
+      "notes": "",
+      "page": "https://github.com/ValeraZSD/gamerai-recorder/releases/tag/v1.0.0",
+      "published": "2026-08-12"
+    }
+  ]
 }
