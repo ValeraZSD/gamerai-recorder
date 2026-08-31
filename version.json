@@ -1,17 +1,18 @@
 {
-  "version": "1.2.0",
-  "url": "https://github.com/ValeraZSD/gamerai-recorder/releases/download/v1.2.0/GamerAI-Recorder-1.2.0.zip",
-  "sha256": "1cc331e296c8cb8239b57a67f26f9ae76b4386b5a6936da462f3ccfb6707b030",
-  "bytes": 145229600,
-  "published": "2026-08-17",
-  "notes": {
-    "en": "The mouse pointer is now recorded on every tick, not every third — so hovering an inventory slot and dragging an item are told apart three times more often in your recordings. Menu and crafting play is worth recording again.\n\nThe update notice now says which version you are on and how many releases behind, with a \"What changed\" button.",
-    "ru": "Указатель мыши теперь записывается на каждом тике, а не на каждом третьем — наведение на слот и перетаскивание предмета различаются втрое чаще. Игру с инвентарём и крафтом стоит записать заново.\n\nУведомление об обновлении теперь показывает вашу версию, на сколько выпусков вы отстаёте, и кнопку «Что изменилось».",
-    "uk": "Вказівник миші тепер записується на кожному тику, а не на кожному третьому — наведення на слот і перетягування предмета розрізняються втричі частіше. Гру з інвентарем і крафтом варто записати знову.\n\nСповіщення про оновлення тепер показує вашу версію, на скільки випусків ви відстаєте, і кнопку «Що змінилося».",
-    "nl": "De muisaanwijzer wordt nu bij elke tick opgenomen in plaats van elke derde — zweven boven een inventarisvak en een item slepen worden drie keer zo vaak onderscheiden. Menu- en craftingopnames zijn het opnieuw opnemen waard.\n\nDe updatemelding toont nu je huidige versie, hoeveel releases je achterloopt, en een knop \"Wat is er veranderd\"."
-  },
-  "page": "https://github.com/ValeraZSD/gamerai-recorder/releases/tag/v1.2.0",
+  "version": "1.3.0",
+  "url": "https://github.com/ValeraZSD/gamerai-recorder/releases/download/v1.3.0/GamerAI-Recorder-1.3.0.zip",
+  "sha256": "b4514255d675331359676b433eec27ae4077e3147adf6f67455c04d9b3ecc0f8",
+  "bytes": 145485327,
+  "published": "2026-08-31",
+  "notes": "The recorder now captures the game's own sound to game.wav, on by default. Everything else is unchanged. Also fixes a packaging bug that stopped the cable-less teammate track from working in the shipped build.",
+  "page": "https://github.com/ValeraZSD/gamerai-recorder/releases/tag/v1.3.0",
   "history": [
+    {
+      "version": "1.3.0",
+      "notes": "The recorder now captures the game's own sound to game.wav, on by default. Everything else is unchanged. Also fixes a packaging bug that stopped the cable-less teammate track from working in the shipped build.",
+      "page": "https://github.com/ValeraZSD/gamerai-recorder/releases/tag/v1.3.0",
+      "published": "2026-08-31"
+    },
     {
       "version": "1.2.0",
       "notes": {
